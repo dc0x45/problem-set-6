@@ -255,7 +255,6 @@ function drawSmileyFace() {
   ctx.stroke();
  }
 }
-}
 
 /*
  * Star. 9 points.
