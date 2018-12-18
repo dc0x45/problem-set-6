@@ -119,8 +119,8 @@ function drawColoredRectangle() {
   let h=Number(50)
   let w=Number(100)
   let answer = prompt('Color:')
-  let backup = ans
-  switch(ans){
+  let backup = answer
+  switch(answer){
   case answer='red':
     ctx.fillStyle = 'red';
     ctx.fillRect(xcor, ycor, w, h);
