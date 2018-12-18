@@ -431,8 +431,8 @@ function drawHouse() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   while(true){
-  let doorColor=prompt("Front door color:")
-  let houseColor=prompt("House color:")
+  var doorColor = prompt("Front door color:")
+  var houseColor = prompt("House color:")
   if((doorColor=="brown" || doorColor=="blue" || doorColor=="green" || doorColor=="orange" || doorColor=="purple" || doorColor=="red" || doorColor=="yellow")
   && (houseColor=="brown" || houseColor=="blue" || houseColor=="green" || houseColor=="orange" || houseColor=="purple" || houseColor=="red" || houseColor=="yellow")) {
     break;
@@ -441,13 +441,14 @@ function drawHouse() {
       alert("Some of your colors are invalid. Please try again.")
   }
 }
+  
 let x=150;
 let lengthHouse=576;
 let heightHouse=400;
 let y=canvas.height-heightHouse-10;
 ctx.beginPath();
 
-ctx.fillStyle=houseColor;
+ctx.fillStyle = houseColor;
 ctx.fillRect(x,y,lengthHouse,heightHouse);
 
 ctx.fillStyle=doorColor;
