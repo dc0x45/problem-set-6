@@ -82,7 +82,6 @@ function drawRectangle() {
   ctx.strokeRect(x,y,width,height);
 }
 }
-}
 
 /*
  * Color. 3 points.
