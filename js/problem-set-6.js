@@ -348,7 +348,7 @@ function drawStopSign() {
   ctx.fill();
   ctx.closePath();
   ctx.fillStyle="#ffffff";
-  ctx.font="80px sans-serif";
+  ctx.font="50px sans-serif";
   ctx.fillText("STOP", 22, 133);
 }
 
