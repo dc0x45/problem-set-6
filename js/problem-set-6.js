@@ -476,4 +476,3 @@ ctx.arc(450, 700, 6, 0, Math.PI*2);
 ctx.fill();
 ctx.closePath()
 }
-}
