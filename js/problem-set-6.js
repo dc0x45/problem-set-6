@@ -205,7 +205,6 @@ function drawTriangle() {
   ctx.lineTo(10, 10);
   ctx.stroke();
 }
-}
 
 /*
  * Smile. 7 points.
